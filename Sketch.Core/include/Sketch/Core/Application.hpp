@@ -11,6 +11,8 @@ namespace sk
         Application();
         virtual ~Application();
     };
+
+    Application* createApplication();
 }
 
 #endif
