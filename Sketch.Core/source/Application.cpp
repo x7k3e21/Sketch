@@ -12,4 +12,9 @@ namespace sk
     {
         
     }
+
+    void Application::execute()
+    {
+        
+    }
 }

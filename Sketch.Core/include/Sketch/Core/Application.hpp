@@ -10,6 +10,8 @@ namespace sk
 
         Application();
         virtual ~Application();
+
+        void execute();
     };
 
     Application* createApplication();
