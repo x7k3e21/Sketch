@@ -15,6 +15,9 @@ namespace sk
 
     void Application::execute()
     {
-        
+        while(this->m_Running == true)
+        {
+            
+        }
     }
 }

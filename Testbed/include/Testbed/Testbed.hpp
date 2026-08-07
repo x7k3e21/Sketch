@@ -12,13 +12,13 @@ namespace testbed
         public:
 
         Testbed();
-        ~Testbed();
+        virtual ~Testbed();
     };
 }
 
 ::sk::Application* ::sk::createApplication()
 {
-    return new testbed::Testbed();
+    return new ::testbed::Testbed();
 }
 
 #endif

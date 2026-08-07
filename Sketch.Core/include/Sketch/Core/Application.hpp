@@ -12,6 +12,10 @@ namespace sk
         virtual ~Application();
 
         void execute();
+
+        private:
+
+        bool m_Running = true;
     };
 
     Application* createApplication();

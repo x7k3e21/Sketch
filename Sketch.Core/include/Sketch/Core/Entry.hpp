@@ -9,7 +9,7 @@
 
 int main(int argc, char** argv)
 {
-    auto application = sk::createApplication();
+    auto application = ::sk::createApplication();
     application->execute();
 
     delete application;
