@@ -17,7 +17,7 @@ namespace sk
     {
         while(this->m_Running == true)
         {
-            
+
         }
     }
 }
