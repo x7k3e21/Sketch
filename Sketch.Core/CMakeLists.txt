@@ -9,6 +9,9 @@ target_include_directories(Sketch.Core PUBLIC
 )
 
 target_sources(Sketch.Core PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/Sketch/Core/Event/Event.hpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/Sketch/Core/Event/EventManager.hpp"
+
     "${CMAKE_CURRENT_SOURCE_DIR}/include/Sketch/Core/Log/Log.hpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/include/Sketch/Core/Log/Logger.hpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/include/Sketch/Core/Log/Sink.hpp"
@@ -17,6 +20,8 @@ target_sources(Sketch.Core PRIVATE
 
     "${CMAKE_CURRENT_SOURCE_DIR}/include/Sketch/Core/Application.hpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/include/Sketch/Core/Entry.hpp"
+
+    "${CMAKE_CURRENT_SOURCE_DIR}/source/Event/EventManager.cpp"
 
     "${CMAKE_CURRENT_SOURCE_DIR}/source/Log/Logger.cpp"
 
